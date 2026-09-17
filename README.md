@@ -4,7 +4,6 @@ A big-data analytics project that explores household electricity consumption pat
 
 > Course project — DS331: Big Data Analytics, 2025–2026 (Section 62S).
 > Aligned with **UN Sustainable Development Goal 7** — Affordable and Clean Energy.
-> This was a **group project**; this repository reflects my contribution to the shared codebase.
 
 ##  Problem Statement
 
@@ -54,9 +53,7 @@ jupyter notebook electricity_consumption_analysis.ipynb
 
 > Note: the London Smart Meters dataset is not redistributed here due to its size. Download it from [Kaggle — Smart Meters in London](https://www.kaggle.com/datasets/jeanmidev/smart-meters-in-london) and place it in the project root before running the notebook.
 
-## Team & Contribution
 
-This was a group project completed as part of the DS331 Big Data Analytics course. My role focused on **[fill in your specific contribution, e.g. "feature engineering & model evaluation" or "EDA & Spark pipeline setup"]**.
 
 ##  License
 
