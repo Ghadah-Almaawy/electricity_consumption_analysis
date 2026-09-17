@@ -1,4 +1,4 @@
-# Analyzing Electricity Consumption Patterns — London Smart Meters ⚡
+# Analyzing Electricity Consumption Patterns — London Smart Meters 
 
 A big-data analytics project that explores household electricity consumption patterns using the **London Smart Meters dataset** (~5,500 households, 30-minute interval readings) and builds predictive models for energy usage, using **Apache Spark**.
 
@@ -6,15 +6,15 @@ A big-data analytics project that explores household electricity consumption pat
 > Aligned with **UN Sustainable Development Goal 7** — Affordable and Clean Energy.
 > This was a **group project**; this repository reflects my contribution to the shared codebase.
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Growing electricity demand in urban areas creates challenges for efficient energy management. Understanding consumption patterns at scale helps utilities and households plan smarter, more sustainable energy usage.
 
-## 🎯 Objective
+##  Objective
 
 Analyze household-level electricity consumption at scale, uncover daily/weekly/seasonal usage trends and peak-demand periods, and build regression models that predict energy consumption from time-based features.
 
-## 🗂️ Project Workflow
+##  Project Workflow
 
 1. **Data Ingestion** — loading the London Smart Meters half-hourly readings into Spark (`recursiveFileLookup` across all household files).
 2. **Data Cleaning** — handling nulls, trimming, type casting.
@@ -26,7 +26,7 @@ Analyze household-level electricity consumption at scale, uncover daily/weekly/s
    - Gradient Boosted Trees (GBT) Regressor
 6. **Model Evaluation** — RMSE, MAE, and R² for each model.
 
-## 📊 Results
+##  Results
 
 | Model | RMSE | MAE | R² |
 |---|---|---|---|
@@ -36,14 +36,14 @@ Analyze household-level electricity consumption at scale, uncover daily/weekly/s
 
 Gradient Boosted Trees achieved the lowest error and highest R² among the three models, though all models show that consumption is influenced by many factors beyond simple time features — reflecting the inherent variability of individual household behavior.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Apache Spark (PySpark) — distributed data processing & ML
 - pandas — light-weight local data handling
 - matplotlib — visualization
 
-## 🚀 Running the Project
+##  Running the Project
 
 ```bash
 git clone <this-repo-url>
@@ -54,10 +54,10 @@ jupyter notebook electricity_consumption_analysis.ipynb
 
 > Note: the London Smart Meters dataset is not redistributed here due to its size. Download it from [Kaggle — Smart Meters in London](https://www.kaggle.com/datasets/jeanmidev/smart-meters-in-london) and place it in the project root before running the notebook.
 
-## 👥 Team & Contribution
+## Team & Contribution
 
 This was a group project completed as part of the DS331 Big Data Analytics course. My role focused on **[fill in your specific contribution, e.g. "feature engineering & model evaluation" or "EDA & Spark pipeline setup"]**.
 
-## 📄 License
+##  License
 
 This project is shared for educational and portfolio purposes.
